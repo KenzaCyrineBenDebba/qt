@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>884</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>tabpromotion</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-image: url(:/res/res/fond.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/res/res/fond.jpg);
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideMiddle</enum>
+      </property>
+      <property name="usesScrollButtons">
+       <bool>true</bool>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="setModel">
+       <attribute name="title">
+        <string>promotions</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="5" column="1" colspan="2">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>Death-to-designers example</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="pb_supprimer">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>supprimer</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QPushButton" name="pb_trier">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>trier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="pb_modifier">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>modifier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="pb_rechercher">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>chercher</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>two tables</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="3">
+         <widget class="QPushButton" name="pb_statistique">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>statistique</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="4">
+         <widget class="QTableView" name="tabpromotion">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>simplest example</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pb_ajouter">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>ajouter</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" rowspan="4" colspan="3">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="id">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+              <property name="text">
+               <string>id</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="nom_client">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+              <property name="text">
+               <string>nom_client</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="pourcentage">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+              <property name="text">
+               <string>pourcentage</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+              <property name="text">
+               <string>nombre_colis</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="3" column="0">
+             <widget class="QLineEdit" name="lineEdit_pourcentage">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLineEdit" name="lineEdit_nom_client">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLineEdit" name="lineEdit_nombre_colis">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLineEdit" name="lineEdit_id">
+              <property name="styleSheet">
+               <string notr="true">border-width: 2px;
+border-color: white;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>jours feries</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="5" column="2">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>simplest example</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pb_rechercher2">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>chercher</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>two tables</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pb_ajouter2">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>ajouter</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pb_supprimer2">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>supprimer</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="pb_trier2">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>trier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" rowspan="5">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+            <property name="text">
+             <string>nom_jour</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+            <property name="text">
+             <string>jour</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+            <property name="text">
+             <string>mois</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1" rowspan="5">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLineEdit" name="lineEdit_nom_jour">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_jour">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_mois">
+            <property name="styleSheet">
+             <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="pb_modifier2">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>modifier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="styleSheet">
+           <string notr="true">border-width: 2px;
+background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+          <property name="text">
+           <string>Death-to-designers example</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0" colspan="3">
+         <widget class="QTableView" name="tabjoursferies">
+          <property name="styleSheet">
+           <string notr="true">background-image:url(:/Desktop/multimedia/white.png);</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>884</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
